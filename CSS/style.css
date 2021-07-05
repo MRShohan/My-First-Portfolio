@@ -10,11 +10,12 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .first{
     width: 50%;
     margin: 10px;
-    padding: 10px;
+    padding: 2%;
 
 }
 .first img{
@@ -26,11 +27,29 @@ section{
     font-weight: 700;
     color: white;
     background-image: linear-gradient(red, orangered);
-    padding: 10px 40px;
+    padding: 10px 30px;
     border-radius: 5%;
 }
 .top-banner{
     background-image: url(../Images/top-banner.png);
     background-repeat: no-repeat;
     
+}
+.dream{
+    color: red;
+}
+.second{
+    width: 50%;
+    margin: 10px;
+    padding: 2%;
+
+}
+.second img{
+    width: 75%;
+    
+}
+.middle-banner{
+    background-image: url(../Images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
