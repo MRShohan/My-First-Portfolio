@@ -1,0 +1,30 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.portfolio{
+    color: greenyellow;
+}
+section{
+    display: flex;
+}
+.first{
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+
+}
+.first img{
+    width: 100%;
+    border-radius: 50%;
+}
+.linked-button{
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    background-image: linear-gradient(red, orangered);
+    padding: 10px 40px;
+    border-radius: 5%;
+}
