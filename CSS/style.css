@@ -60,6 +60,9 @@ h2{
 .last{
     color: saddlebrown;
 }
+.third{
+    margin-bottom: 100px;
+}
 .h1-tag{
     padding: 2%;
     margin-bottom: 0;
@@ -104,4 +107,7 @@ h2{
     background-repeat: no-repeat;
     background-position: left;
     
+}
+footer p{
+    text-align: center;
 }
