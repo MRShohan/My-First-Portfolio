@@ -5,10 +5,14 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 30px;
+    color: royalblue;
+}
 .portfolio{
     color: greenyellow;
 }
-section{
+.containar{
     display: flex;
     margin-bottom: 100px;
 }
@@ -52,4 +56,52 @@ section{
     background-image: url(../Images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.last{
+    color: saddlebrown;
+}
+.h1-tag{
+    padding: 2%;
+    margin-bottom: 0;
+}
+.end{
+    width: 50%;
+    margin: 10px;
+    padding: 2%;
+    border-radius: 10px;
+    
+}
+.end-1{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    box-shadow: 10px 10px 30px rgb(61, 42, 165);
+    
+
+}
+.end-2{
+    border-left: 5px solid;
+    border-image: linear-gradient(brown, salmon);
+    border-image-slice: 1;
+    box-shadow: 10px 10px 30px rgb(99, 36, 36);
+    
+}
+.end-3{
+    border-left: 5px solid;
+    border-image: linear-gradient(seagreen, cyan);
+    border-image-slice: 1;
+    box-shadow: 10px 10px 30px rgb(36, 161, 109);
+    
+
+}
+
+.experiences{
+    display: flex;
+    margin-left: 0px;
+    margin-right: 10px;
+    padding-left: 10px;
+    background-image: url(../Images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
 }
